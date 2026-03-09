@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+venv_dl/
+.env
+
+# Data Files
+*.csv
+*.parquet
+
+# Models
+models/
+bert_models/
+wangchanberta_models/
+dataset_split/models/
+*.pkl
+*.pt
+*.bin
+*.safetensors
